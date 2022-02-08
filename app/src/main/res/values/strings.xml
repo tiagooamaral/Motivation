@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Motivation</string>
+    <string name="lets_start">Vamos Começar?</string>
+    <string name="whats_is_your_name">Qual o seu nome?</string>
+    <string name="save">Salvar</string>
+    <string name="name">Nome</string>
+    <string name="phrase">Frase!</string>
+    <string name="new_phrase">Nova Frase</string>
+    <string name="infinity">infinito</string>
+    <string name="happy_face">rosto feliz</string>
+    <string name="sunny">sol</string>
+    <string name="phrase1">Não sabendo que era impossível, foi lá e fez.</string>
+    <string name="phrase2">Você não é derrotado quando perde, você é derrotado quando desiste!</string>
+    <string name="phrase3">Quando está mais escuro, vemos mais estrelas!</string>
+    <string name="phrase4">Insanidade é fazer sempre a mesma coisa e esperar um resultado diferente.</string>
+    <string name="phrase5">Não pare quando estiver cansado, pare quando tiver terminado.</string>
+    <string name="phrase6">O que você pode fazer agora que tem o maior impacto sobre o seu sucesso?</string>
+    <string name="phrase7">A melhor maneira de prever o futuro é inventá-lo.</string>
+    <string name="phrase8">Você perde todas as chances que você não aproveita.</string>
+    <string name="phrase9">Fracasso é o condimento que dá sabor ao sucesso.</string>
+    <string name="phrase10">Enquanto não estivermos comprometidos, haverá hesitação!</string>
+    <string name="phrase11">Se você não sabe onde quer ir, qualquer caminho serve.</string>
+    <string name="phrase12">Se você acredita, faz toda a diferença.</string>
+    <string name="phrase13">Riscos devem ser corridos, porque o maior perigo é não arriscar nada!</string>
+</resources>

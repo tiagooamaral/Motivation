@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/app_color"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/imageAll"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/infinity"
+            android:src="@drawable/ic_all"
+            android:tint="@color/white" />
+
+        <ImageView
+            android:id="@+id/imageHappy"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/happy_face"
+            android:src="@drawable/ic_happy"
+            android:tint="@color/white" />
+
+        <ImageView
+            android:id="@+id/imageMorning"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/sunny"
+            android:src="@drawable/ic_sunny"
+            android:tint="@color/white" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearMenu"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:text="@string/name"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textPhrase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="32dp"
+        android:gravity="center"
+        android:text="@string/phrase"
+        android:textSize="20sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/textPhrase"
+        android:layout_margin="32dp"
+        android:background="@color/app_color" />
+
+    <Button
+        android:id="@+id/btnNewPhrase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="18dp"
+        android:backgroundTint="@color/app_color"
+        android:text="@string/new_phrase" />
+
+</RelativeLayout>
